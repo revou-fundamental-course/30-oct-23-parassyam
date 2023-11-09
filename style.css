@@ -322,6 +322,7 @@ a:hover img {
     }
   }
 
+  /*Untuk HP*/
   @media screen and (max-width: 800px) {
     .bodyAll {
         display: flex;
@@ -330,6 +331,10 @@ a:hover img {
         gap: 10px;
         align-content: center;
     }
+
+    #radioBtn{
+        margin-left: 1px;
+    }
     
     .bungkusJenisKelamin {
         width: 50%;
@@ -337,7 +342,7 @@ a:hover img {
     #jenisKelamin{
             
     padding-top: 20px;
-    margin-left: 55px;
+    margin-left: 40px;
     margin-bottom: 1px;
     }
 
@@ -349,18 +354,21 @@ a:hover img {
         text-align: center;
     }
     #berat {
+        max-width: 70%;
         margin-left: 25px; 
     }
     #beratBadan {
         margin-left: 25px; 
     }
     #usia{
+        max-width: 70%;
         margin-left: 25px;
     }
     #umur {
         margin-left: 25px; 
     }
     #tinggi{
+        max-width: 70%;
         margin-left: 25px;
     }
     #tinggiBadan {
